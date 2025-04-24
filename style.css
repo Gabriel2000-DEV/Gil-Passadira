@@ -1,0 +1,76 @@
+/* Estilo inspirado na interface visual do layout fornecido */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff8f8;
+  color: #333;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header.topo {
+  background-color: #ec4899;
+  padding: 20px 0;
+  color: white;
+}
+header.topo h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+header.topo nav {
+  text-align: center;
+  margin-top: 10px;
+}
+header.topo nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+}
+header.topo nav a.active,
+header.topo nav a:hover {
+  text-decoration: underline;
+}
+main.home {
+  padding: 60px 0;
+  text-align: center;
+}
+.intro h2 {
+  font-size: 2.5rem;
+  color: #d63384;
+}
+.intro p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25D366;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+.whatsapp-btn img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.whatsapp-btn:hover {
+  background-color: #20c35c;
+}
+footer {
+  background-color: #ec4899;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
